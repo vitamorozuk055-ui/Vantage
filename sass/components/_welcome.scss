@@ -1,9 +1,61 @@
-.main-picture{
+.main-picture {
     width: 978px;
     height: 590px;
     margin-left: 70px;
 }
-.welcome{
+
+.welcome {
     background-color: #141414;
+
+}
+
+.welcome-list {
+    display: flex;
+    gap: 37px;
+    color: black;
+    border: 1px solid red;
+    background-color: #EBEBEB;
+    width: 815px;
+    height: 68px;
+    align-items: center;
+    list-style: none;
+
+}
+
+.welcome-item {}
+
+.welcome-social-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #141414;
+      font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.97px;
+    font-weight: 600;
+}
+
+
+.intro-main{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+   
+}
+
+
+.intro-section {
+  width: 584px;
+  height: 455px;
+  background-color: #FFFFFF;
+  border: 1px solid purple;
+
+}
+.intro-name {
+
+}
+.intro-slogan {
+
+}
+.intro-p {
 
 }
