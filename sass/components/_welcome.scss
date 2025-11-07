@@ -22,40 +22,105 @@
 
 }
 
-.welcome-item {}
+.welcome-item {
+    border: 1px solid red;
+}
 
 .welcome-social-link {
     text-decoration: none;
     text-transform: uppercase;
     color: #141414;
-      font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 12px;
     letter-spacing: 2.97px;
     font-weight: 600;
 }
 
 
-.intro-main{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-   
+.intro-main {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    top: -660px;
+    left: -38px;
 }
 
 
 .intro-section {
-  width: 584px;
-  height: 455px;
-  background-color: #FFFFFF;
-  border: 1px solid purple;
-
+    position: relative;
+    width: 584px;
+    height: 455px;
+    background-color: #FFFFFF;
+    border: 1px solid purple;
+    z-index: 1;
+    margin-left: -210px;
+    margin-top: -294px;
 }
+
 .intro-name {
+    color: #99823D;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 142px;
+    height: 11px;
+    margin-left: 60px;
+    padding-top: 10px;
 
 }
+
 .intro-slogan {
+    margin-left: 60px;
+}
+
+.intro-p {
+    margin-left: 60px;
+    font-family: "Open Sans", sans-serif;
+    width: 435px;
+    height: 51px;
+}
+
+.yellow-block {
+    position: absolute;
+    width: 489px;
+    height: 329px;
+    background-color: #99823D;
+    z-index: 0;
+    top: 315px;
+    left: 894px;
 
 }
-.intro-p {
 
+.explore-link {
+    position: absolute;
+    width: 216px;
+    height: 47px;
+    background-color: #99823D;
+    color: #FFFFFF;
+    left: 40px;
+    top: 320px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.chat-btn {
+    position: relative;
+    width: 216px;
+    height: 68px;
+    background-color: #141414;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    left: 300px;
+    top: 48px;
 }

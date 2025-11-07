@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
 .container {
   width: 1305px;
   border: 1px solid red;
@@ -100,6 +101,10 @@
   list-style: none;
 }
 
+.welcome-item {
+  border: 1px solid red;
+}
+
 .welcome-social-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -112,13 +117,179 @@
 
 .intro-main {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: flex-end;
+  top: -660px;
+  left: -38px;
 }
 
 .intro-section {
+  position: relative;
   width: 584px;
   height: 455px;
   background-color: #FFFFFF;
   border: 1px solid purple;
+  z-index: 1;
+  margin-left: -210px;
+  margin-top: -294px;
+}
+
+.intro-name {
+  color: #99823D;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 142px;
+  height: 11px;
+  margin-left: 60px;
+  padding-top: 10px;
+}
+
+.intro-slogan {
+  margin-left: 60px;
+}
+
+.intro-p {
+  margin-left: 60px;
+  font-family: "Open Sans", sans-serif;
+  width: 435px;
+  height: 51px;
+}
+
+.yellow-block {
+  position: absolute;
+  width: 489px;
+  height: 329px;
+  background-color: #99823D;
+  z-index: 0;
+  top: 315px;
+  left: 894px;
+}
+
+.explore-link {
+  position: absolute;
+  width: 216px;
+  height: 47px;
+  background-color: #99823D;
+  color: #FFFFFF;
+  left: 40px;
+  top: 320px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.chat-btn {
+  position: relative;
+  width: 216px;
+  height: 68px;
+  background-color: #141414;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  left: 300px;
+  top: 48px;
+}
+
+.paragraph-page {
+  width: 820px;
+  border: 1px solid black;
+}
+
+.about-us {
+  width: 82px;
+  height: 17px;
+  color: #99823D;
+  font-size: 11px;
+  letter-spacing: 2.76px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-bottom: -57px;
+}
+
+.p-intro {
+  font-family: "Teko", sans-serif;
+  font-size: 53px;
+  color: #141414;
+  text-transform: capitalize;
+  width: 655px;
+  height: 106px;
+  margin-left: 40px;
+}
+
+.about-us-paragraph-one {
+  width: 683px;
+  height: 51px;
+  margin-left: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #141414;
+}
+
+.about-us-paragraph-two {
+  width: 684px;
+  height: 102px;
+  margin-left: 40px;
+  font-family: "Open Sans", sans-serif;
+  color: #141414;
+  font-size: 17px;
+}
+
+.news {
+  width: 424px;
+}
+
+.news-one {
+  width: 424px;
+  border: 1px solid orange;
+  text-decoration: none;
+  position: relative;
+  left: 805px;
+  top: -387px;
+}
+
+.news-two {
+  width: 424px;
+  border: 1px solid blue;
+  position: relative;
+  left: 805px;
+  top: -387px;
+}
+
+.news-paragraph-one {
+  width: 323px;
+  font-family: "Teko", sans-serif;
+  font-size: 26px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.news-paragraph-two {
+  width: 323px;
+  font-family: "Teko", sans-serif;
+  font-size: 26px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.news-date {
+  color: #99823D;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  letter-spacing: 2.76px;
+  text-decoration: none;
+  width: 181px;
+  padding: 10px;
+  height: 8px;
 }/*# sourceMappingURL=main.css.map */
