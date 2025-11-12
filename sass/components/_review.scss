@@ -1,0 +1,46 @@
+
+
+.review-list {
+    display: flex;
+    padding-left: 0;
+    gap: 151px;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.projects-item {
+    width: 113px;
+    
+}
+
+.projects-item::after{
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: #99823D;
+    position: relative;
+    top: -68px;
+    left: -78px;
+}
+
+ 
+
+.project-item-title {
+    font-family: "Teko", sans-serif;
+    font-size: 59px;
+    width: 120px;
+    color: black;
+    margin-bottom: -23px;
+}
+
+.project-item-discription {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.97px;
+    color: #99823D;
+    text-transform: uppercase;
+    text-align: center;
+}
