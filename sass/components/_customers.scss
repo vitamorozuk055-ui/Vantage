@@ -1,0 +1,25 @@
+.container {}
+
+.main-customers {}
+
+.customers-list {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    padding-left: 70px;
+    gap: 117px;
+}
+
+.customer-item {
+    list-style: none;
+}
+.customer-item::after{
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: #99823D;
+    position: relative;
+    top: -27px;
+    left: -68px;
+}

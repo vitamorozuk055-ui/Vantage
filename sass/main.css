@@ -431,4 +431,105 @@
   left: 203px;
   top: 204px;
   z-index: 1;
+}
+
+.services {
+  width: 74px;
+  font-family: "Open Sans", sans-serif;
+  color: #99823D;
+  letter-spacing: 2.76px;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-weight: regular;
+}
+
+.service-slogan {
+  width: 801px;
+  font-family: "Teko", sans-serif;
+  font-size: 53px;
+  color: #141414;
+  font-weight: bold;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+
+.service-item {
+  width: 391px;
+  list-style: none;
+}
+
+.data {
+  width: 43px;
+  position: relative;
+  top: -84px;
+  left: 76px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  letter-spacing: 2.76px;
+  color: #99823D;
+  font-weight: 500;
+}
+
+.service-item-title {
+  width: 129px;
+  position: relative;
+  top: -103px;
+  left: 75px;
+  font-family: "Teko", sans-serif;
+  font-size: 26px;
+  color: #141414;
+  font-weight: 400;
+}
+
+.service-item-discription {
+  width: 292px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #141414;
+  margin-top: -110px;
+  margin-bottom: 75px;
+}
+
+.service-link {
+  background-color: #99823D;
+  color: white;
+  text-transform: uppercase;
+  width: 392px;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  letter-spacing: 2.97px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+.customers-list {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  padding-left: 70px;
+  gap: 117px;
+}
+
+.customer-item {
+  list-style: none;
+}
+
+.customer-item::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  background-color: #99823D;
+  position: relative;
+  top: -27px;
+  left: -68px;
 }/*# sourceMappingURL=main.css.map */
