@@ -58,3 +58,71 @@
 
 }
 
+
+@media (max-width :430px) {
+    .container{
+        width: 430px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.paragraph-flex-wrapper{
+    display: flex;
+    
+}
+
+
+.paragraph-page {
+    width: 430px;
+    border: 1px solid black;
+
+}
+
+
+.about-us {
+        width: 82px;
+        height: 17px;
+        color: #99823D;
+        font-size: 7px;
+        letter-spacing: 0.76px;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        margin-left: 15px;
+        margin-bottom: -57px;
+
+}
+
+.p-intro {
+        font-family: "Teko", sans-serif;
+        font-size: 23px;
+        color: #141414;
+        text-transform: capitalize;
+        width: 212px;
+        height: 106px;
+        margin-left: 12px;
+        margin-top: 53px;
+    
+
+}
+
+.about-us-paragraph-one {
+        width: 250px;
+        height: 51px;
+        margin-left: 12px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 10px;
+        color: #141414;
+        margin-top: -60px;
+}
+
+.about-us-paragraph-two {
+        width: 226px;
+        height: 102px;
+        margin-left: 13px;
+        font-family: "Open Sans", sans-serif;
+        color: #141414;
+        font-size: 9px;
+
+}
+
+}

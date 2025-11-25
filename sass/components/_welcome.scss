@@ -4,10 +4,10 @@
     margin-left: 70px;
 }
 
- .welcome {
-      background-color: #141414;
+.welcome {
+    background-color: #141414;
 
- }
+}
 
 .welcome-list {
     display: flex;
@@ -71,7 +71,16 @@
 }
 
 .intro-slogan {
-    margin-left: 60px;
+    width: 417px;
+    font-family: "Teko", sans-serif;
+    font-size: 67px;
+    margin-bottom: -107px;
+    font-weight: 600;
+    text-shadow: 5px 5px 12px;
+    letter-spacing: -3px;
+    position: relative;
+    top: -70px;
+    left: 60px;
 }
 
 .intro-p {
@@ -123,4 +132,168 @@
     letter-spacing: 3px;
     left: 300px;
     top: 48px;
+}
+
+
+
+@media (max-width :430px) {
+
+
+
+    .welcome.container {
+
+        width: 100%;
+        max-width: 430px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-picture {
+        width: 430px;
+        height: 408px;
+        margin-left: 0px;
+    }
+
+    .welcome {
+        background-color: #141414;
+
+    }
+
+    .welcome-list {
+        display: flex;
+        gap: 43px;
+        color: black;
+        border: 1px solid red;
+        background-color: #EBEBEB;
+        height: 68px;
+        align-items: center;
+        list-style: none;
+        padding-left: 26px;
+        width: 403px;
+
+    }
+
+    .welcome-item {
+        border: 1px solid red;
+    }
+
+    .welcome-social-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #141414;
+        font-family: "Open Sans", sans-serif;
+        font-size: 7px;
+        letter-spacing: 2.97px;
+        font-weight: 600;
+    }
+
+
+    .intro-main {
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        left: 0;
+    }
+
+
+    .intro-section {
+        position: relative;
+        width: 215px;
+        height: 170px;
+        background-color: #FFFFFF;
+        border: 1px solid purple;
+        z-index: 1;
+        margin-top: -35px;
+        left: 175px;
+    }
+
+
+
+    .intro-name {
+        color: #99823D;
+        font-family: "Open Sans", sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 142px;
+        height: 1px;
+        margin-left: 7px;
+        padding-top: 0px;
+        font-size: 7px;
+
+
+    }
+
+    .intro-slogan {
+        width: 417px;
+        font-family: "Teko", sans-serif;
+        font-size: 28px;
+        margin-bottom: -107px;
+        font-weight: 500;
+        text-shadow: 5px 5px 12px;
+        letter-spacing: -1px;
+        position: relative;
+        left: 3px;
+        top: -25px;
+    }
+
+    .intro-p {
+        margin-left: 10px;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 70px;
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .yellow-block {
+        position: absolute;
+        width: 215px;
+        height: 170px;
+        background-color: #99823D;
+        z-index: 0;
+        top: 0;
+        left: 56px;
+        margin-left: 158px; 
+        margin-top: 311px;
+    }
+
+
+
+    .explore-link {
+        // position: absolute; 
+        width: 67px;
+        height: 26px;
+        background-color: #99823D;
+        color: #FFFFFF;
+        left: 24px;
+        top: 111px;
+        text-align: center;
+        margin: 0 auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        font-size: 8px;
+        letter-spacing: 3px;
+        /* margin-left: 20px; */
+        padding-top: 14px;
+    }
+
+    .chat-btn {
+        position: relative;
+        width: 67px;
+        height: 40px;
+        background-color: #141414;
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 8px;
+        letter-spacing: 1px;
+        left: 126px;
+        top: 9px;
+    }
+
+
+    .intro-section-parent {
+        display: flex;
+        justify-content: flex-start;
+    }
 }

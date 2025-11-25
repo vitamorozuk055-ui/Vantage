@@ -3,41 +3,45 @@
     height: 1px;
 }
 
-// .news-list {
+.news-list {
+    list-style: none;
+    padding-left: 0;
+}
 
-// }
+.paragraph-flex-wrapper {
+    display: flex;
+
+}
 
 .news-one {
     width: 424px;
     border: 1px solid orange;
     text-decoration: none;
-    position: relative;
-    left: 805px;
-    top: -387px;
-
+    height: 159px;
 }
+
 
 .news-two {
     width: 424px;
-    border: 1px solid blue;
-    position: relative;
-    left: 805px;
-    top: -387px;
+    border: 1px solid orange;
+    text-decoration: none;
+    height: 159px;
+
 }
 
 .news-paragraph-one {
-    width: 323px;
+    
     font-family: "Teko", sans-serif;
     font-size: 26px;
-    padding: 10px;
+    padding: 4px;
     text-transform: capitalize;
 }
 
 .news-paragraph-two {
-    width: 323px;
+    // width: 323px;
     font-family: "Teko", sans-serif;
     font-size: 26px;
-    padding: 10px;
+    padding: 4px;
     text-transform: capitalize;
 }
 
@@ -48,7 +52,66 @@
     font-size: 11px;
     letter-spacing: 2.76px;
     text-decoration: none;
-    width: 181px;
-    padding: 10px;
+    // width: 181px;
+    padding: 5px;
     height: 8px;
+}
+
+@media (max-width :430px) {
+    .news {
+        width: 424px;
+        height: 1px;
+    }
+
+    .news-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .news-one {
+        width: 170px;
+        border: 1px solid orange;
+        text-decoration: none;
+        // position: relative;
+        // left: 219px;
+        // top: -263px;
+        height: 97px;
+    }
+
+    .news-two {
+        width: 170px;
+        border: 1px solid blue;
+        // position: relative;
+        // left: 218px;
+        // top: -262px;
+        height: 100px;
+    }
+
+    .news-paragraph-one {
+        // width: 323px;
+        font-family: "Teko", sans-serif;
+        font-size: 15px;
+        padding: 0px;
+        text-transform: capitalize;
+    }
+
+    .news-paragraph-two {
+        // width: 323px;
+        font-family: "Teko", sans-serif;
+        font-size: 14px;
+        padding: 1px;
+        text-transform: capitalize;
+    }
+
+    .news-date {
+        color: #99823D;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        font-size: 8px;
+        letter-spacing: 1.76px;
+        text-decoration: none;
+        // width: 181px;
+        padding: 5px;
+        height: 8px;
+    }
 }

@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .container{
-    width: 1305px;
+    width: 1440px;
     border: 1px solid red;
     margin: 0 auto;
 

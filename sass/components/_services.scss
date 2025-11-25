@@ -1,4 +1,4 @@
-.main-services {}
+// .main-services {}
 
 .services {
     width: 74px;
@@ -26,7 +26,7 @@
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
-
+    left: -20px;
 }
 
 .service-item {
@@ -70,16 +70,106 @@
 
 }
 
-.service-link{
+.service-link {
     // margin: 0 auto;
     background-color: #99823D;
     color: white;
     text-transform: uppercase;
-        width: 392px;
+    width: 392px;
     text-align: center;
     padding: 30px;
     text-decoration: none;
     letter-spacing: 2.97px;
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
+}
+
+
+@media (max-width :430px) {
+    .services {
+        width: 74px;
+        font-family: "Open Sans", sans-serif;
+        color: #99823D;
+        letter-spacing: 2.76px;
+        font-size: 11px;
+        text-transform: uppercase;
+        margin: 0 auto;
+        font-weight: regular;
+    }
+
+    .service-slogan {
+
+        font-family: "Teko", sans-serif;
+        font-size: 30px;
+        color: #141414;
+        font-weight: bold;
+        width: 420px;
+        margin: 0 auto;
+        text-transform: capitalize;
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+
+    .service-list {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        left: -20px;
+    }
+
+    .service-item {
+        width: 193px;
+        list-style: none;
+        
+    }
+
+    .data {
+        width: 43px;
+        position: relative;
+        top: -84px;
+        left: 76px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 11px;
+        letter-spacing: 2.76px;
+        color: #99823D;
+        font-weight: 500;
+
+
+    }
+
+    .service-item-title {
+        width: 129px;
+        position: relative;
+        top: -103px;
+        left: 75px;
+        font-family: "Teko", sans-serif;
+        font-size: 26px;
+        color: #141414;
+        font-weight: 400;
+
+    }
+
+    .service-item-discription {
+        width: 180px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 17px;
+        color: #141414;
+        margin-top: -110px;
+        margin-bottom: 75px;
+    }
+
+    .service-link {
+        // margin: 0 auto;
+        background-color: #99823D;
+        color: white;
+        text-transform: uppercase;
+        width: 392px;
+        text-align: center;
+        padding: 30px;
+        text-decoration: none;
+        letter-spacing: 2.97px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+    }
 }
