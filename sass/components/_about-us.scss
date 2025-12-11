@@ -1,14 +1,29 @@
-.container-about-us{
-        width: 1305px;
-    border: 1px solid red;
+.container-about-us {
+    width: 1305px;
+    // border: 1px solid red;
     margin: 0 auto;
 }
 
 
 .paragraph-page {
     width: 820px;
-    border: 1px solid black;
+    // border: 1px solid black;
 
+}
+
+.slide-in-bottom{
+    animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 
@@ -33,17 +48,17 @@
     width: 655px;
     height: 106px;
     margin-left: 40px;
-    
+
 
 }
 
 .about-us-paragraph-one {
- width: 683px;
- height: 51px ;
- margin-left: 40px;
- font-family: "Open Sans", sans-serif;
- font-size: 17px;
- color: #141414;
+    width: 683px;
+    height: 51px;
+    margin-left: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    color: #141414;
 
 
 }
@@ -53,33 +68,33 @@
     height: 102px;
     margin-left: 40px;
     font-family: "Open Sans", sans-serif;
-     color: #141414;
-     font-size: 17px;
+    color: #141414;
+    font-size: 17px;
 
 }
 
 
-@media (max-width :430px) {
-    .container{
+@media (min-width :430px) and (max-width:767px) {
+    .container {
         width: 430px;
-    border: 1px solid red;
-    margin: 0 auto;
-}
+        // border: 1px solid red;
+        margin: 0 auto;
+    }
 
-.paragraph-flex-wrapper{
-    display: flex;
-    
-}
+    .paragraph-flex-wrapper {
+        display: flex;
 
-
-.paragraph-page {
-    width: 430px;
-    border: 1px solid black;
-
-}
+    }
 
 
-.about-us {
+    .paragraph-page {
+        width: 430px;
+        // border: 1px solid black;
+
+    }
+
+
+    .about-us {
         width: 82px;
         height: 17px;
         color: #99823D;
@@ -90,9 +105,9 @@
         margin-left: 15px;
         margin-bottom: -57px;
 
-}
+    }
 
-.p-intro {
+    .p-intro {
         font-family: "Teko", sans-serif;
         font-size: 23px;
         color: #141414;
@@ -101,11 +116,11 @@
         height: 106px;
         margin-left: 12px;
         margin-top: 53px;
-    
 
-}
 
-.about-us-paragraph-one {
+    }
+
+    .about-us-paragraph-one {
         width: 250px;
         height: 51px;
         margin-left: 12px;
@@ -113,9 +128,9 @@
         font-size: 10px;
         color: #141414;
         margin-top: -60px;
-}
+    }
 
-.about-us-paragraph-two {
+    .about-us-paragraph-two {
         width: 226px;
         height: 102px;
         margin-left: 13px;
@@ -123,6 +138,70 @@
         color: #141414;
         font-size: 9px;
 
+    }
+
 }
+
+@media (min-width:768px) and (max-width: 1023px) {
+
+    .container-about-us {
+        width: 730px;
+        border: 3px solid rgb(19, 77, 19);
+        margin: 0 auto;
+    }
+
+
+    .paragraph-page {
+        width: 820px;
+        // border: 1px solid black;
+
+    }
+
+
+    .about-us {
+        width: 82px;
+        height: 17px;
+        color: #99823D;
+        font-size: 11px;
+        letter-spacing: 2.76px;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        margin-left: 22px;
+        margin-bottom: -47px;
+
+    }
+
+    .p-intro {
+        font-family: "Teko", sans-serif;
+        font-size: 35px;
+        color: #141414;
+        text-transform: capitalize;
+        width: 452px;
+        height: 76px;
+        margin-left: 20px;
+
+
+    }
+
+    .about-us-paragraph-one {
+        width: 450px;
+        height: 46px;
+        margin-left: 20px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        color: #141414;
+
+
+    }
+
+    .about-us-paragraph-two {
+        width: 445px;
+        height: 120px;
+        margin-left: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #141414;
+        font-size: 13px;
+
+    }
 
 }

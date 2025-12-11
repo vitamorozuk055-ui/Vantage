@@ -13,7 +13,7 @@
     display: flex;
     gap: 37px;
     color: black;
-    border: 1px solid red;
+    // border: 1px solid red;
     background-color: #EBEBEB;
     width: 815px;
     height: 68px;
@@ -22,9 +22,25 @@
 
 }
 
-.welcome-item {
-    border: 1px solid red;
+.rotate-center:hover{
+	animation: rotate-center 0.6s ease-in-out both;
 }
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.welcome-item {
+    // border: 1px solid red;
+}
+
+
 
 .welcome-social-link {
     text-decoration: none;
@@ -46,13 +62,29 @@
     left: -38px;
 }
 
+.slide-in-bottom{
+animation: slide-in-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 .intro-section {
     position: relative;
     width: 584px;
     height: 455px;
     background-color: #FFFFFF;
-    border: 1px solid purple;
+    // border: 1px solid purple;
     z-index: 1;
     margin-left: -210px;
     margin-top: -294px;
@@ -101,6 +133,22 @@
 
 }
 
+
+.scale-down-center:hover{
+    animation: scale-down-center 2.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+
 .explore-link {
     position: absolute;
     width: 216px;
@@ -118,6 +166,7 @@
     letter-spacing: 3px;
     margin-left: 20px;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .chat-btn {
@@ -131,12 +180,15 @@
     font-size: 12px;
     letter-spacing: 3px;
     left: 300px;
-    top: 48px;
+   
+    top: 63px;
+    border: none;
+    cursor: pointer;
 }
 
 
 
-@media (max-width :430px) {
+@media (min-width :430px) and (max-width:767px) {
 
 
 
@@ -163,7 +215,7 @@
         display: flex;
         gap: 43px;
         color: black;
-        border: 1px solid red;
+        // border: 1px solid red;
         background-color: #EBEBEB;
         height: 68px;
         align-items: center;
@@ -174,7 +226,7 @@
     }
 
     .welcome-item {
-        border: 1px solid red;
+        // border: 1px solid red;
     }
 
     .welcome-social-link {
@@ -201,7 +253,7 @@
         width: 215px;
         height: 170px;
         background-color: #FFFFFF;
-        border: 1px solid purple;
+        // border: 1px solid purple;
         z-index: 1;
         margin-top: -35px;
         left: 175px;
@@ -252,7 +304,7 @@
         z-index: 0;
         top: 0;
         left: 56px;
-        margin-left: 158px; 
+        margin-left: 158px;
         margin-top: 311px;
     }
 
@@ -288,12 +340,163 @@
         font-size: 8px;
         letter-spacing: 1px;
         left: 126px;
-        top: 9px;
+        top: 18px;
+        border: none;
     }
 
 
     .intro-section-parent {
         display: flex;
         justify-content: flex-start;
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .main-picture {
+        width: 650px;
+        height: 590px;
+        margin-left: 20px;
+    }
+
+    .welcome {
+        background-color: #141414;
+
+    }
+
+    .welcome-list {
+     display: flex;
+        gap: 98px;
+        color: black;
+        // border: 1px solid red;
+        background-color: #EBEBEB;
+        width: 690px;
+        height: 68px;
+        align-items: center;
+        list-style: none;
+
+    }
+
+    .welcome-item {
+        // border: 1px solid red;
+    }
+
+    .welcome-social-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #141414;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        letter-spacing: 2.97px;
+        font-weight: 600;
+    }
+
+
+    .intro-main {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: flex-end;
+        top: -660px;
+        left: -38px;
+    }
+
+
+    .intro-section {
+            position: relative;
+        width: 330px;
+        height: 210px;
+        background-color: #FFFFFF;
+        // border: 1px solid purple;
+        z-index: 1;
+        margin-left: -31px;
+        margin-top: -25px;
+    
+    }
+
+    .intro-name {
+        color: #99823D;
+        font-family: "Open Sans", sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        /* width: 142px; */
+        /* height: 11px; */
+        margin-left: 10px;
+        padding-top: 1px;
+        font-size: 10px;
+
+    }
+
+    .intro-slogan {
+        width: 417px;
+        font-family: "Teko", sans-serif;
+        font-size: 38px;
+        /* margin-bottom: -107px; */
+        font-weight: 600;
+        text-shadow: 5px 5px 12px;
+        letter-spacing: -3px;
+        position: relative;
+        top: -41px;
+        left: 2px;
+        /* text-align: left; */
+
+    }
+
+    .intro-p {
+               margin-left: 60px;
+        font-family: "Open Sans", sans-serif;
+        width: 320px;
+        /* height: 51px; */
+        position: relative;
+        top: 50px;
+        left: -50px;
+        font-size: 13px;
+    }
+
+    .yellow-block {
+    position: absolute;
+        width: 330px;
+        height: 210px;
+        background-color: #99823D;
+        z-index: 0;
+       top: 206px;
+        left: 257px;
+    }
+
+    
+
+    .explore-link {
+        position: absolute;
+        width: 95px;
+        height: 15px;
+        background-color: #99823D;
+        color: #FFFFFF;
+        left: 40px;
+        top: 133px;
+        text-align: center;
+        margin: 0 auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        font-size: 9px;
+        letter-spacing: 6px;
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .chat-btn {
+                position: relative;
+        width: 100px;
+        height: 35px;
+        background-color: #141414;
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 3px;
+        left: 185px;
+                top: 59px;
+        border: none;
     }
 }

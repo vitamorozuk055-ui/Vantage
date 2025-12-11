@@ -1,6 +1,6 @@
 .main-footer {
     width: 1440px;
-    border: 1px solid yellow;
+    // border: 1px solid yellow;
 
 }
 
@@ -83,6 +83,9 @@
     font-size: 11px;
 }
 
+
+
+
 .footer-btn {
     width: 155px;
     height: 68px;
@@ -96,6 +99,8 @@
     position: relative;
     left: 70px;
     top: 67px;
+    border: none;
+    cursor: pointer;
 }
 
 .footer-list {
@@ -113,6 +118,7 @@
     padding-top: 20px;
     // padding-bottom: 20px;
     align-items: end;
+    cursor: pointer;
 }
 
 .footer-item {
@@ -192,11 +198,11 @@
 
 
 
-@media (max-width :430px) {
+@media (min-width :430px) and (max-width:767px) {
 
     .main-footer {
         width: 429px;
-        border: 1px solid yellow;
+        // border: 1px solid yellow;
 
     }
 
@@ -208,10 +214,9 @@
         justify-content: space-between;
         margin: 0 auto;
         height: 272px;
-        // z-index: 3;
         margin-top: -230px;
         position: relative;
-        top: 380px;
+        top: 374px;
         height: 272px;
         z-index: -1;
     }
@@ -226,9 +231,9 @@
 
     .menu-footer {
         display: flex;
-
-        gap: 0px;
+        gap: 32px;
         list-style: none;
+        padding-left: 17px;
     }
 
 
@@ -238,6 +243,7 @@
         // left: -40px;
         // top: 30px;
         margin-top: 5px;
+        width: 20px;
     }
 
     .menu-footer-link {
@@ -277,7 +283,7 @@
     }
 
     .footer-btn {
-        width: 100px;
+                width: 100px;
         height: 55px;
         background-color: black;
         color: white;
@@ -288,7 +294,9 @@
         font-weight: bold;
         position: relative;
         left: 70px;
+        border: none;
         top: 67px;
+        
     }
 
     .footer-list {
@@ -312,7 +320,7 @@
         text-transform: uppercase;
         letter-spacing: 2.76px;
         font-size: 9px;
-        padding-left:3px; 
+        padding-left: 3px;
     }
 
     // .footer-link {
@@ -343,7 +351,7 @@
     }
 
     .webflow {
-    font-family: "Open Sans", sans-serif;
+        font-family: "Open Sans", sans-serif;
         list-style: none;
         text-transform: uppercase;
         letter-spacing: 1.76px;
@@ -367,5 +375,198 @@
     .footer-wrapper-bg-black {
         background-color: black;
     }
+
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .main-footer {
+        width: 730px;
+        // border: 1px solid yellow;
+
+    }
+
+    // .footer-main-bg{
+    //     background-color: #000000;
+    //     height: 279px;
+    // }
+
+    .footer-top {
+              display: flex;
+        margin-top: 50px;
+        width: 689px;
+        background-color: #3D3D3D;
+        justify-content: space-between;
+        margin: 0 auto;
+        height: 272px;
+        margin-top: -360px;
+        position: relative;
+        top: 382px;
+        height: 266px;
+        z-index: -1;
+        left: -1px;
+    
+    }
+
+    .footer-img {
+        width: 131px;
+        height: 34px;
+        padding-left: 15px;
+        padding-top: 35px
+    }
+
+    .menu-footer {
+        display: flex;
+        gap: 8px;
+        list-style: none;
+
+    }
+
+    .menu-footer-item {
+        width: 74px;
+        position: relative;
+        left: -40px;
+        top: 30px;
+    }
+
+    .menu-footer-link {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .footer-form {
+        width: 665px;
+        background-color: #99823D;
+        height: 186px;
+        z-index: 2;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        top: 223px;
+        left: -3px;
+    }
+
+    .footer-input {
+        width: 384px;
+        height: 50px;
+        position: relative;
+        left: 35px;
+        top: 65px;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        padding-left: 30px;
+        color: black;
+        letter-spacing: 2.76px;
+        font-size: 11px;
+    }
+
+    .footer-btn {
+      width: 155px;
+        height: 46px;
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2.76px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        position: relative;
+        left: 70px;
+        top: 69px;
+        border: none;
+    
+    }
+
+    .footer-list {
+        width: 730px;
+        color: white;
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+        height: 239px;
+        z-index: 1;
+        margin-bottom: 0;
+        /* margin: 0 auto; */
+        padding-left: -149px;
+        padding-top: 20px;
+        align-items: end;
+        left: 10px;
+        position: relative;
+        left: -55px;
+    }
+
+    .footer-item {
+        font-family: "Open Sans", sans-serif;
+        // width: 86px;
+        // position: relative;
+        // left: 20px;
+        // top: 195px;
+        list-style: none;
+        text-transform: uppercase;
+        letter-spacing: 2.76px;
+        font-size: 11px;
+
+    }
+
+     .footer-link {
+    // font-family: "Open Sans", sans-serif;
+    // width: 86px;
+    // position: relative;
+    // left: 20px;
+    // top: 195px;
+    // list-style: none;
+    // text-transform: uppercase;
+    // letter-spacing: 2.76px;
+    // font-size: 11px;
+     }
+
+    .footer-p {
+        font-family: "Open Sans", sans-serif;
+        width: 97px;
+        // position: relative;
+        // left: 660px;
+        // top: -11px;
+        list-style: none;
+        text-transform: uppercase;
+        letter-spacing: 2.76px;
+        font-size: 11px;
+        // display: flex;
+        color: #FFFFFF;
+
+    }
+
+    .webflow {
+        font-family: "Open Sans", sans-serif;
+        list-style: none;
+        text-transform: uppercase;
+        letter-spacing: 2.76px;
+        font-size: 11px;
+        display: flex;
+        color: rgb(255 255 255);
+        text-decoration: none;
+        width: 250px;
+        padding-top: 20px;
+        position: relative;
+        left: -435px;
+    }
+
+    .footer-wrapper-list-webflow {
+        display: flex;
+        justify-content: space-between;
+        width: 1168px;
+        margin: 0 auto;
+        // background-color: black;
+
+        align-items: end;
+        padding-bottom: 20px;
+
+    }
+
+    .footer-wrapper-bg-black {
+        background-color: black;
+    }
+
 
 }
